@@ -1,0 +1,15 @@
+cpu_socket
+memory_socket
+m.2_interface
+graphic_card_socket
+SATA_interface
+power_interface
+cpu_power_interface
+cpu_fan_interface
+motherboard_baffle
+PCI_interface
+jumper_interface
+USB3.0_interface
+USB2.0_interface
+PCIE_interface
+CMOS_Battery

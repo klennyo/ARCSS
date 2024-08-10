@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">YOLOv8 TfLite</string>
+    <string name="cpu_chip_checkmark">✔ CPU Chip</string>
+</resources>

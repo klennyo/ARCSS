@@ -1,0 +1,181 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.surendramaran.yolov8tflite">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newicon"
+        android:label="ARCSS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Safety">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".MainMenu">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".ThankYou">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".AboutUs">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Hands">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Caution">
+            <!-- MainActivity configuration -->
+        </activity>
+
+        <activity android:name=".FinalComponents">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".ProceedingCompo">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".EachClass">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".ListCompo">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Reminder">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".TestMotherboard">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Storage2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".IntroMB">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Note">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepOne_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepOne_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepTwo_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepTwo_P2">
+        <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepTwo_P3">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepThree_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepThree_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Storage1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFour_M2_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFour_M2_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFour_Sata_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFour_Sata_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".ChooseStorage">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFive_GPU_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFive_GPU_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFive_GPU_P3">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepFive_GPU_P4">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSix_LANCARD_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSix_LANCARD_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSix_LANCARD_P3">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSeven_POWER_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSeven_POWER_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepSeven_POWER_P3">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepEight_OC_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".StepEight_OC_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Checking">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Checking1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Checking2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".Checking3">
+        <!-- MainActivity configuration -->
+    </activity>
+        <activity android:name=".MBTesting">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".FinalChecking_P1">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".FinalChecking_P2">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".FinalChecking_P3">
+            <!-- MainActivity configuration -->
+        </activity>
+        <activity android:name=".FinalChecking_P4">
+            <!-- MainActivity configuration -->
+        </activity>
+
+
+
+
+
+        <!-- The Launcher activity must have an intent-filter -->
+        <activity android:name=".front"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

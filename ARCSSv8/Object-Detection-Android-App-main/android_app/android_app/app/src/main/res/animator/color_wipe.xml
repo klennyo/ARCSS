@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="backgroundColor"
+        android:duration="500"
+        android:valueFrom="@android:color/transparent"
+        android:valueTo="@color/transitionColor"
+        android:valueType="colorType"
+        android:repeatMode="reverse"
+        android:repeatCount="1"/>
+</set>

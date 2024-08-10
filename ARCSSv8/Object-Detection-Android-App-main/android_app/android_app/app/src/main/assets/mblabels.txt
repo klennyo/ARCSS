@@ -1,0 +1,14 @@
+ CPU socket
+ Memory socket
+ M.2 Interface
+ Graphics card socket
+ SATA Interface
+ Power Interface
+ CPU power interface
+ CPU fan interface
+ Motherboard baffle
+ PCI interface
+ PCIE interface
+ Jumper interface
+ USB3.0 interface
+ USB2.0 interface
